@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment and logs
+.venv/
+.env
+*.log
+
+# Reference SDK package is not redistributed
+participant_kit/
+*Participant_Kit/
+participant_kit.zip
+
+# Local copy of reference practice fixtures (unused by the test suite)
+tests/scenarios.json
